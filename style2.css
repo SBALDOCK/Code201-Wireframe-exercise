@@ -4,75 +4,66 @@ body{
   width: 100%;
 }
 
+
 header{
-  background-color: rgba(100, 98, 97, 0.838);
+  background-color: rgba(62, 60, 59, 0.838);
   height: 100px;
   margin-bottom: 30px;
+  margin-left: 200px;
+  position: relative;
+  width: 960px;
 }
 
 #bannerphoto{
-  margin-top: 15px;
+  float: left;
 }
 
-#sectionheader{
-  align-items: center;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-#headercontent{
-  align-items: center;
-  display: flex;
-  height: 70px;
-  justify-content: space-around;
-  width: 725px;
+.headercontent{
+  text-align: center;
 }
 
 .navs{
   color: white;
   display: inline-block;
+  margin-left: 55px;
+  margin-right: 55px;
+  padding-top: 32px;
 }
+
+
 
 /* body */
 
 #sectionbanner{
+  margin-bottom: 30px;
+  margin-left: 200px;
   margin-top: 30px;
+  width: 960px;
 }
 
 .subbanner{
-  margin-right: 24px;
+  margin-right: 25px;
 }
 
 #feature{
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
+  margin-left: 197px;
 }
 
-#leftphoto{
-  position: relative;
-}
-
-#paragraph{
-  position: flex;
-  flex-direction: column;
+#featuredsectionbanner{
+  float: left;
+  margin-right: 30px;
 }
 
 h1{
   font-size: 18px;
   font-weight: bold;
-  margin-left: 30px;
-  text-align: left;
-  top: 0px; 
 }
 
 p{
   height: 265px;
-  margin-left: 30px;
   margin-top: 30px;
   overflow: scroll;
-  text-align: left;
-  width: 450px;
+  width: 460px;
 }
 
 button{
@@ -92,7 +83,8 @@ button:hover{
 }
 
 footer{
-  background-color:rgba(100, 98, 97, 0.838);
-  height: 120px;
+  background-color:rgba(62, 60, 59, 0.838);
+  height: 150px;
+  margin-left: 200px;
+  width: 960px;
 }
-
